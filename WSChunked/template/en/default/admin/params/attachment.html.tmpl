@@ -1,0 +1,23 @@
+[%# This Source Code Form is subject to the terms of the Mozilla Public
+  # License, v. 2.0. If a copy of the MPL was not distributed with this
+  # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  #
+  # This Source Code Form is "Incompatible With Secondary Licenses", as
+  # defined by the Mozilla Public License, v. 2.0.
+  #%]
+[%
+   title = "Attachments"
+   desc = "Set up attachment options"
+%]
+
+[% param_descs = {
+
+  WSC_chunk_size => "this is the size of the attachment chunks wich will be sent via the " _
+                    "XMLRPC endpoint, "_
+                    "default is 7MB.<br>"_
+                    "PS:<li>if kept empty this field will get its default value.</li>"
+  WSC_chunk_path => "This is the path where chunking and regrouping operations will be done, " _
+                    "default is /tmp/bugzila_WSchunked.<br>"_
+                    "PS:<li>You should have <b>rw</b> privileges on the directory.</li>"_
+                    "<li>if kept empty this field will get its default value.</li>"}
+%]
