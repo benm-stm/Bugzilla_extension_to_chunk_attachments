@@ -6,3 +6,5 @@ here is a small illustration of the interaction.
 
 ![alt tag](https://github.com/benm-stm/Bugzilla_extension_to_chunk_attachments/blob/master/chunked_illustration.png)
 
+PS: Sorry i can't post the code of the synchronyzer it's not mine, but i'll post the code which i've wrote to communicate between a simple client for adding add  downloading attachments
+
